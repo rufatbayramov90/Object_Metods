@@ -1,3 +1,4 @@
+//#region
 const user = {
     age : 27,
     name : 'Qedir',
@@ -13,7 +14,8 @@ user.setAge(58);
 console.log(user.age);
 result = user.getYearsBeforeRetirement();
 console.log(`${user.name} ${user.surname} senin pensiyana ${result} il qalib`)
-
+//#endregion
+//#region
 // Mustei kredit karti ile isleek ucun obyekt yaradilir
 const client = {
     fullName : 'Qedir Inanir',
@@ -41,8 +43,8 @@ console.log(client.getBalance());
 console.log(client.getMinPayment());
 console.log(client.withdraw(300));
 console.log(client.refill(400));
-// ---------------------------------------------
-/*
+//#endregion
+//#region
 const calculator = {
     total(a,b){
         result = a + b;
@@ -65,4 +67,4 @@ console.log(calculator.total(4,5));
 console.log(calculator.exit(4,5));
 console.log(calculator.shoot(4,5));
 console.log(calculator.division(4,5))
-*/
+//#endregion
